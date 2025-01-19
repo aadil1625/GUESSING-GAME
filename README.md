@@ -1,8 +1,8 @@
 <html>
   <head></head>
   <body>
-     <h1>Guessing Game</h1>   
-       <h2>Project Overview</h2>
+    <h1>Guessing Game</h1>   
+    <h2>Project Overview</h2>
     <p>This is a simple <strong>Number Guessing Game</strong> where the player needs to guess a random number between 1 and 100. The player has 10 attempts to guess the correct number. After each guess, the game provides feedback, indicating whether the guess was too low, too high, or correct.</p>
     <h2>Features</h2>
     <ul>
@@ -23,21 +23,22 @@
     </ol>
     <h2>Technologies Used</h2>
     <ul>
-        <li>HTML for the structure of the page.</li>
-        <li>JavaScript for game logic and interactivity.</li>
+        <li>React for building the user interface and handling the game logic.</li>
+        <li>CSS for styling and enhancing the user experience.</li>
     </ul>
     <h2>How to Run the Project</h2>
     <ol>
         <li>Download or clone the project from the repository.</li>
-        <li>Ensure all the required files are in the same folder, including the <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> files.</li>
-        <li>Open the <strong>game.html</strong> file in a web browser.</li>
-        <li>Start playing the game by entering a number and clicking "Submit Guess".</li>
+        <li>Ensure all the required files are in the same folder, including the <strong>React</strong> and <strong>CSS</strong> files.</li>
+        <li>Run <code>npm install</code> to install all the dependencies.</li>
+        <li>Start the development server by running <code>npm start</code>.</li>
+        <li>Open the application in a web browser and start playing the game.</li>
     </ol>
     <h2>Project Structure</h2>
     <ul>
-        <li><strong>game.html</strong>: The main HTML file for the structure of the game.</li>
-        <li><strong>game.js</strong>: The JavaScript file containing the game logic and interactivity.</li>
-        <li><strong>game.css</strong>: The CSS file for styling the game (optional, can be added later).</li>
+        <li><strong>src/components/Game.js</strong>: The React component containing the main game logic and interactivity.</li>
+        <li><strong>src/components/App.js</strong>: The main entry point for rendering the game component.</li>
+        <li><strong>src/styles/Game.css</strong>: The CSS file for styling the game.</li>
     </ul>
     <h2>Future Enhancements</h2>
     <ul>
@@ -45,4 +46,5 @@
         <li>Implement a timer to make the game more challenging.</li>
         <li>Enhance the user interface with improved styling and animations.</li>
     </ul>
-    </html>
+  </body>
+</html>
